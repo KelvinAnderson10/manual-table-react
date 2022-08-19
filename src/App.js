@@ -9,7 +9,10 @@ document.addEventListener('DOMContentLoaded', init, false);
 
 let data, table, sortCol;
 let sortAsc = false;
+
+// ubah row per page nya disini
 const pageSize = 3;
+
 let curPage = 1;
 
 async function init() {
